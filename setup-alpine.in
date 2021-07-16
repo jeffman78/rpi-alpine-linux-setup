@@ -27,7 +27,7 @@ PROXYOPTS="none"
 # Add a random mirror for apk repository
 #APKREPOSOPTS="-r"
 # Add the first (usually a CDM) mirror for apk repository
-#APKREPOSOPTS="-1"
+APKREPOSOPTS="-1"
 
 # Install OpenSSH
 SSHDOPTS="-c openssh"
