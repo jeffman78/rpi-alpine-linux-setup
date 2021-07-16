@@ -10,8 +10,15 @@ Add an APK repository and install Git
 Clone this repo
 
 `git clone https://github.com/jeffman78/rpi-alpine-linux-setup ; cd rpi-alpine-linux-setup`
-  
+
+Edit the answer file and ajust hostname, IP settings and DNS server
+
+`vi setup-alpine.in`
+
 ## Automatic steps
 
 `setup-alpine -f setup-alpine.in`
+
+You'll be prompted for the root password
+ 
   
