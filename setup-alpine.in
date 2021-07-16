@@ -1,0 +1,45 @@
+# Keyboard layout and variant
+KEYMAPOPTS="fr fr-azerty"
+
+# Hostname
+HOSTNAMEOPTS="-n <HOSTNAME>"
+
+# Network interfaces
+INTERFACESOPTS="auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+    address <IP>
+    netmask 255.255.255.0
+    gateway <GATEWAY>
+"
+
+# DNS
+DNSOPTS="-d local <DNS>"
+
+# Timezone
+TIMEZONEOPTS="-z Europe/Paris"
+
+# Proxy
+PROXYOPTS="none"
+
+# Add a random mirror for apk repository
+#APKREPOSOPTS="-r"
+# Add the first (usually a CDM) mirror for apk repository
+#APKREPOSOPTS="-1"
+
+# Install OpenSSH
+SSHDOPTS="-c openssh"
+
+# NTP
+NTPOPTS="-c chrony"
+
+# Setup data disk
+DISKOPTS="-m data /media/mmcblk0p1/data"
+
+# Setup lbu config storage
+LBUOPTS="mmcblk0p1"
+
+# Setup apk cache
+APKCACHEOPTS="/media/mmcblk0p1/cache"
