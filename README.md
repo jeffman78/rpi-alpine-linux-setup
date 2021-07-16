@@ -11,5 +11,7 @@ Clone this repo
 
 `git clone https://github.com/jeffman78/rpi-alpine-linux-setup ; cd rpi-alpine-linux-setup`
   
-  
+## Automatic steps
+
+`setup-alpine -f setup-alpine.in`
   
