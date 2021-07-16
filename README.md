@@ -9,7 +9,7 @@ Add an APK repository and install Git
   
 Clone this repo
 
-`git clone https://github.com/jeffman78/rpi-alpine-linux-setup ; cd rpi-alpine-minux-setup`
+`git clone https://github.com/jeffman78/rpi-alpine-linux-setup ; cd rpi-alpine-linux-setup`
   
   
   
